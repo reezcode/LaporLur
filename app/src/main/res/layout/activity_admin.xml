@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk Admin"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/profontbold"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"/>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/nama"
+                android:background="@drawable/bgbutton"
+                android:layout_width="match_parent"
+                android:elevation="5dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:hint="Nama" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/password"
+                android:background="@drawable/bgbutton"
+                android:layout_width="match_parent"
+                android:elevation="5dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:onClick="masukadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

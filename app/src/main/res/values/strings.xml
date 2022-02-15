@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lapor Lur</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="beranda">Beranda</string>
+    <string name="laporan_hari_ini">Berita Hari Ini</string>
+    <string name="feeds">Feeds</string>
+    <string name="infrastruktur">Infrastruktur</string>
+    <string name="jenis">Jenis</string>
+    <string name="terima_kasih">Terima Kasih</string>
+    <string name="laporan_anda_sudah_kami_terima">Laporan anda sudah kami terima</string>
+    <string name="kembali_ke_beranda">Kembali Ke Beranda</string>
+    <string name="masuk">Masuk</string>
+    <string name="ringkasan">Ringkasan</string>
+    <string name="isi_laporan">Isi Laporan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_desa">Info Desa</string>
+</resources>
